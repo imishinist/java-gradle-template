@@ -1,0 +1,15 @@
+group 'org.imishinist'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java-library'
+
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.apache.solr:solr-core:8.8.2'
+}
